@@ -39,4 +39,4 @@ https://github.com/user-attachments/assets/136fa33e-0663-4cf3-bfa2-a259916b7f22
 
 <img width="614" alt="Screenshot 2568-03-02 at 4 41 08 AM" src="https://github.com/user-attachments/assets/047d2ae7-0b50-4125-9866-72d25e6fa3c1" />
 
-- FYI: model file is too big too push to Github, you can access via this Google Drive link and if you want to run my web application, you can use **"python app.py"** but all you have to do is download model folder. This is link to model file: https://drive.google.com/drive/folders/1FyAWvfTPtbkBGAuY_WBMAA4Jvp1UfW6y?usp=sharing
+- FYI: model file is too big too push to Github, you can access via this Google Drive link and if you want to run my web application, you can use **"python app.py"** to run but all you have to do is download model folder. This is link to model file: https://drive.google.com/drive/folders/1FyAWvfTPtbkBGAuY_WBMAA4Jvp1UfW6y?usp=sharing
