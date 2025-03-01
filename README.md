@@ -18,8 +18,6 @@ The training process was configured with the following parameters:
 | Training Steps | 1000 | Total iterations for optimization |
 
 #### Monitoring and Evaluation
-Throughout training, I monitored key metrics including:
-- DPO loss trajectory
 I use Wandb (Weights & Biases) to track these metrics in real-time. The platform provides interactive visualizations that helped identify training patterns and potential issues. With Wandb's logging capabilities, I could observe how the model gradually learned to distinguish between preferred and non-preferred responses over the 1000 training steps.
 
 ### Training Results
