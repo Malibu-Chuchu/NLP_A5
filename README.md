@@ -1,3 +1,4 @@
+#### Name: Patsachon Pattakulpong st124952
 ### Task 1: Dataset link: https://huggingface.co/datasets/Anthropic/hh-rlhf
 ### Task 2: Training a Model with DPOTrainer
 #### Base Model Selection
