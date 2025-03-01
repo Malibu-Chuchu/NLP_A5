@@ -37,7 +37,8 @@ The table below shows the metrics tracked during model training at steps 500 and
 |------|---------------|-----------------|----------------|------------------|-------------------|----------------|-----------------|--------------|-----------------|---------------|
 | 500  | 2.041600      | 3.162900        | -11.313297     | -14.325815       | 0.597000          | 3.012520       | -283.884094     | -230.698654  | -9.234812       | -9.627277     |
 | 1000 | 0.100600      | 4.512190        | -23.955256     | -28.742985       | 0.597000          | 4.787728       | -428.055786     | -357.118225  | -40.360313      | -40.775414    |
-from training result, it shows a significant decrease on training loss while the reward margin between chosen and rejected responses increased. The consistent accuracy measurement of 59.7% indicates room for improvement in the model's ability to discriminate between preferred and non-preferred responses.
+
+- from training result, it shows a significant decrease on training loss while the reward margin between chosen and rejected responses increased. The consistent accuracy measurement of 59.7% indicates room for improvement in the model's ability to discriminate between preferred and non-preferred responses.
 
 ### Task 3: Huggingface link: https://huggingface.co/PattycherryAnker/optimize-human-preference
 
