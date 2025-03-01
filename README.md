@@ -1,10 +1,9 @@
+### Task 1: Dataset link: https://huggingface.co/datasets/Anthropic/hh-rlhf
 ### Task 2: Training a Model with DPOTrainer
-
 #### Base Model Selection
-For this project, I selected GPT-2 as the foundation model. This pre-trained language model, available through Hugging Face's model hub, served as the starting point for preference optimization. The model architecture provides a good balance between performance and computational requirements.
+I implemented Direct Preference Optimization (DPO) using the specialized `DPOTrainer` framework. This approach fine-tunes the model by learning from paired examples of preferred and non-preferred responses, effectively teaching it to distinguish between desirable and undesirable outputs.  
 
-#### DPO Training Implementation
-I implemented Direct Preference Optimization using the specialized DPOTrainer framework. This approach fine-tunes the model by learning from paired examples of preferred and non-preferred responses, effectively teaching the model to distinguish between desirable and undesirable outputs.
+For this homework, I used `Anthropic/hh-rlhf` as the pre-trained language model, available through Hugging Face's model hub, as the foundation for preference optimization. This model architecture provides a strong balance between performance and computational efficiency.
 
 #### Training Configuration
 The training process was configured with the following parameters:
@@ -16,14 +15,6 @@ The training process was configured with the following parameters:
 | Gradient Accumulation | 1 | Updates weights after each batch |
 | Max Sequence Length | 256 | Limits context window for processing |
 | Training Steps | 1000 | Total iterations for optimization |
-
-## Optimization Process
-During training, the model learns to assign higher probability to human-preferred responses while maintaining reasonable divergence from the reference model. The DPO loss function balances between:
-
-1. Maximizing the likelihood gap between chosen and rejected responses
-2. Limiting divergence from the initial model distribution
-
-This approach helps avoid catastrophic forgetting while improving alignment with human preferences.
 
 #### Monitoring and Evaluation
 Throughout training, I monitored key metrics including:
